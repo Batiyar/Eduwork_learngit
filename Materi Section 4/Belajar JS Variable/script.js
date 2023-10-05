@@ -3,4 +3,4 @@ let y = 10 + 10 + "10" ;
 
 const jumlah = x + y;
 
-document.getElementById("hasil").textContent = jumlah;
+console.log(jumlah);
