@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>belajar typeof</title>
+</head>
+<body>
+    <h1>Pengecekan Tipe Data Menggunakan typeof</h1>
+
+    <p id="output"></p>
+
+    <script>
+        // Membuat variabel dengan berbagai tipe data
+        let lenght = 16;
+        let lastName = "Johnson";
+        const x = {
+            firstName: "John",
+            lastName: "Doe"
+        };
+
+        // Menampilkan hasil ke elemen HTML
+        document.getElementById("output").innerHTML = 
+            "Tipe data dari lenght: " + typeof lenght + "<br>" +
+            "Tipe data dari lastname: " + typeof lastName + "<br>" +
+            "Tipe data dari x: " + typeof x;
+    </script>
+</body>
+</html>
