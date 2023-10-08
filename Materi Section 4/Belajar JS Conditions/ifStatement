@@ -1,0 +1,16 @@
+const x = 100;
+const y = 200;
+
+function callConditions() {
+    if (x === y) {
+        console.log("Variable diatas strict")
+    } else if (x < y){
+        console.log("Horee saya bisa")
+    }else if (x > y){
+        console.log("Varable x lebih besar dari y")
+    } else {
+        console.log("apa aja dah")
+    };    
+};
+
+callConditions();
